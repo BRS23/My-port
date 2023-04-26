@@ -10,12 +10,13 @@ header {
     align-items: center;
 }
 
-.div{
+.div {
     display: flex;
     align-items: center
 }
 
-.portifolio{
+.portifolio {
+    cursor: default;
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30PX;
@@ -23,65 +24,42 @@ header {
     text-align: center;
 }
 
-main{ 
+main {
     margin: 0px;
     padding: 90px;
     align-items: center;
     background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
 }
 
-.display{
+.display {
     display: flex;
-    width: 1000px;
     height: 1000px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     align-items: center;
     text-align: center;
 }
 
-.botao_about{
-    color:lightslategrey;
-    text-decoration: none;
-    display: flex;
-}
-
 button {
     margin-top: 80px;
-    display: flex;
     font-size: 50px;
     border-radius: 20px;
     width: 300px;
     height: 80px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.img{display: flex;
-    display:flex;
-    margin-top: 2px;
-}
-
-.rodape{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.texto__texto{
-
-        display: flex;
-        margin-top: 10px;
-        padding: auto;
 }
 
 .imagem {
+    margin-right: 6px;
     width: 35px;
-    height: 35px;
 }
 
-footer{
-    color:lightslategray;
+.imagemInsta{
+    width: 50px;
+}
+
+footer {
+    color: lightslategray;
     align-items: center;
     padding: 15px;
     font-size: 30px;
