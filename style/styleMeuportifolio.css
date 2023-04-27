@@ -1,0 +1,91 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    background-image: url(https://static.independentespanol.com/2022/05/18/16/iStock-177247796.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.div{
+    display: flex;
+    align-items: center
+}
+
+.portifolio{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30PX;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+main{ 
+    margin: 0px;
+    padding: 90px;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+}
+
+.display{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.botao_about{
+    color:lightslategrey;
+    text-decoration: none;
+    display: flex;
+}
+
+button {
+    margin-top: 80px;
+    display: flex;
+    font-size: 50px;
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img{display: flex;
+    display:flex;
+    margin-top: 2px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.texto__texto{
+
+        display: flex;
+        margin-top: 10px;
+        padding: auto;
+}
+
+.imagem {
+    width: 35px;
+    height: 35px;
+}
+
+footer{
+    color:lightslategray;
+    align-items: center;
+    padding: 15px;
+    font-size: 30px;
+    justify-items: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+}
