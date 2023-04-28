@@ -120,7 +120,7 @@ transform: rotateY(180deg);
         width: 800px;        
         height: 500px;
         color: aliceblue;
-        text-align: center;
+        text-align: initial;
         flex-direction:column;
         align-items: flex-start;
         justify-content: flex-end;
@@ -136,18 +136,18 @@ transform: rotateY(180deg);
 }
 
 .fotos{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    shape-outside: inset(20px 5px 30px 10px);
-    border:4px solid orangered;
     float: left;
+    width: 35px;
+    height: 35px;
+    margin: 20px;
+    shape-outside: circle(30% at 20%);
+    clip-path: circle(80% at 0%);
+    background:orangered;
 }
 
 .div_curiosidades{
     color: white;
     gap: 15px;
-    shape-outside: inset(20px 5px 30px 10px);
 }
 
 .resumo{
