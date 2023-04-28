@@ -1,0 +1,119 @@
+<<<<<<< HEAD:style/styleMeuportifolio.css
+* {
+    margin: 0 auto;
+    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    background-image: url(https://static.independentespanol.com/2022/05/18/16/iStock-177247796.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.portifolio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30PX;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.display{
+    display: flex;
+    width: 100%;
+    padding: 400px;
+    gap:400px;
+    color:beige;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+    text-align: center;
+    align-items: center;
+
+}
+
+.texto{
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.cards{
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20210420/pngtree-constellations-background-image_636526.jpg);
+    width: 400px;
+    height: 200px;
+    -webkit-box-shadow: 9px 7px 5px #343434;
+    -moz-box-shadow:    9px 7px 5px #343434;
+    box-shadow:         9px 7px 5px #343434;
+    text-align:center;
+}
+
+button {
+    margin-left: 320px;
+    margin-top: 80px;
+    display: block;
+    font-size: 50px;
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+}
+
+.girar{
+	width: 100%;
+	height: 100%;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.img:hover .girar{
+transform: rotateY(180deg);
+}
+
+.imagem {
+    width: 35px;
+    height: 35px;
+}
+
+.imagem2{
+    width: 55px;
+    height: 35px;
+}
+.barra_menu{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.display2{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    color: aliceblue;
+    background-image: height:100% widht:100% url(https://elements-video-cover-images-0.imgix.net/files/4bdd22ca-9b80-4e09-845f-3b849f5a40c3/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=04c8a72f482bfb16729b38b9a4f3812b);
+}
+.resumo{
+    font-size: 50px;
+    width: 1000px;
+}
+.display5{
+    color:aliceblue;
+    background-size: 100%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://gifs.eco.br/wp-content/uploads/2022/06/gifs-animados-do-sistema-solar-0.gif);
+    text-align: center;
+    align-items: center;
+}
+footer{
+    color:lightslategray;
+    align-items: center;
+    padding: 15px;
+    font-size: 30px;
+    justify-items: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+}
