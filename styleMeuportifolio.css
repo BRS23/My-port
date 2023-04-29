@@ -1,14 +1,13 @@
-
 * {
     margin: 0 auto;
 }
 
 header {
+    position: fixed;
     width: 100%;
-    height: 100%;
-    background-image: url(https://static.independentespanol.com/2022/05/18/16/iStock-177247796.jpg);
-    justify-content: center;
-    align-items: center;
+    height: 40px;
+    padding-top: 8px;
+    background-color: orangered;
     text-align: center;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,41 +15,29 @@ header {
 }
 
 
-.display{
+.display {
     display: flex;
     padding: 50px;
-    color:beige;
+    color: beige;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+    background-color: #000000;
     justify-content: space-evenly;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 
-.texto{
+.texto {
     width: 800px;
     margin-left: 200px;
     margin-top: 20px;
 }
 
-.texto_resumo{
+.texto_resumo {
     font-size: 20px;
 }
 
-.
-.cards{
-    background: 100%;
-    background-image:url(https://i.pinimg.com/736x/19/eb/07/19eb075af98275710f366ab07a31ae40.jpg);
-    width: 400px;
-    height: 200px;
-    -webkit-box-shadow: 9px 7px 5px #343434;
-    -moz-box-shadow:    9px 7px 5px #343434;
-    box-shadow:         9px 7px 5px #343434;
-    text-align:center;
-}
 
 button {
     margin-left: 320px;
@@ -62,41 +49,56 @@ button {
     height: 80px;
 }
 
-.girar{
-	width: 100%;
-	height: 100%;
-	transition: transform 0.8s;
-	transform-style: preserve-3d;
+.cards {
+    border-radius: 5px;
+    background-color: orangered;
+    box-shadow: 7px 7px 13px 0px rgba(129, 125, 125, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
 }
 
-.img:hover .girar{
-transform: rotateY(180deg);
+.girar {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
-.imagem2{
+.img:hover .girar {
+    transform: rotateY(180deg);
+}
+
+.imagem2 {
     width: 55px;
     height: 35px;
 }
-.barra_menu{
+
+.imagem {
+    width: 30px;
+}
+
+.barra_menu {
     display: flex;
     height: 100%;
     width: 100%;
     align-items: center;
 }
 
-.display2{
+.display2 {
     text-align: center;
     padding: 20px;
-    color:black;
+    color: black;
     background-color: orangered;
 }
-.pai{
+
+.pai {
     display: flex;
     padding: 50px;
     background: black;
 }
 
-.hello{
+.hello {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #FFF;
@@ -105,29 +107,34 @@ transform: rotateY(180deg);
     -webkit-text-fill-color: black;
 }
 
-.minha_foto{
-    border:4px solid orangered;
+.minha_foto {
+    border: 4px solid orangered;
     float: left;
     border-radius: 50% 20%;
     width: 350px;
     height: 450px;
-    shape-outside: inset(20px 5px 30px 10px);
+    animation: 3s linear 1s infinite running slidein;
 
 }
 
-.curiosidades{
-        display: flex;
-        width: 800px;        
-        height: 500px;
-        color: aliceblue;
-        text-align: initial;
-        flex-direction:column;
-        align-items: flex-start;
-        justify-content: flex-end;
-        gap: 15px;
+.minha_foto:hover {
+    transform: rotateY(20deg);
+    transition: 1s;
 }
 
-.curiosidades_curiosidades{
+.curiosidades {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    color: aliceblue;
+    text-align: initial;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.curiosidades_curiosidades {
     color: #000000;
     background-color: orangered;
     width: 200px;
@@ -135,22 +142,20 @@ transform: rotateY(180deg);
 
 }
 
-.fotos{
-    float: left;
-    width: 35px;
+.fotos {
     height: 35px;
-    margin: 20px;
-    shape-outside: circle(30% at 20%);
-    clip-path: circle(80% at 0%);
-    background:orangered;
+    /* clip-path: circle(80% at 0%); */
+    border-radius: 55%;
+    border: solid 2px orangered;
+
 }
 
-.div_curiosidades{
+.div_curiosidades {
     color: white;
     gap: 15px;
 }
 
-.resumo{
+.resumo {
     font-size: 15px;
     display: flex;
     justify-content: space-evenly;
@@ -162,7 +167,7 @@ transform: rotateY(180deg);
 }
 
 
-.display5{
+.display5 {
     color: aliceblue;
     background: linear-gradient(0, #120c56, #000000);
     width: 100%;
@@ -170,12 +175,14 @@ transform: rotateY(180deg);
     text-align: center;
     align-items: center;
 }
-footer{
-    color:lightslategray;
+
+footer {
+    color: lightslategray;
     align-items: center;
     padding: 15px;
-    font-size: 30px;
+    font-size: 20px;
     justify-items: center;
     text-align: center;
-    background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif);
+    background: #120c56; 
+    /* background-image: url(https://i.pinimg.com/originals/6d/c1/17/6dc11726798611a9e2fa758a02188bf9.gif); */
 }
