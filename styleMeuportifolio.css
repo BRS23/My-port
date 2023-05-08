@@ -2,20 +2,6 @@
     margin: 0 auto;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    white-space: 3em;
-
-}
-
-.header{
-    align-items: initial;
-}
-
 .foto{
     background-color: #FFC222;
     width: 80%;
@@ -92,14 +78,19 @@ main{
     align-items: center;
 }
 .corpo{
-    width:400px;
-    height: 600px;
-    font-size: 25px;
-    text-align: initial;
-    background-color:#FFC222;
+    width: 600px;
+    font-size: 20px;
+    background-color: #FFC222;
     color: black;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.sobre_mim{
+    width: 200px;
+}
+
 .about{
     transform: rotate(-90deg);
 }
