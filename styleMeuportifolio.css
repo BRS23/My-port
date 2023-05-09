@@ -1,7 +1,7 @@
 * {
     margin: 0 auto;
 }
-header{
+header{ display: block;
     position: fixed;
     background-color: #EBE8E2;
 }
@@ -42,7 +42,15 @@ header{
     text-align: center;
     font-size: 20px;
 }
-
+a#im{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+a#im:hover{
+    background-color:#EBE8E2;
+    border: 2px solid black;
+}
 .menu_menu{
     background-color: #FFC222;
     width: 200px;
@@ -95,11 +103,9 @@ main{
 .sobre_mim{
     width: 200px;
 }
-
-.about{
-    transform: rotate(-90deg);
+h1#sobre_mim{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 .botao{
 width: 200px;
@@ -108,10 +114,19 @@ background-color: #FFC222;
 text-decoration: none;
 font-size: 20px;
 border: 2px solid black;
+display: flex;
+align-items: center;
 
 }
-
-
+ a#botao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:black;
+ }
+ a#botao:hover{
+    background-color: #EBE8E2;
+    border: 2px solid black;
+ }
 .botoes{
     display: flex;
     width: 100px;
