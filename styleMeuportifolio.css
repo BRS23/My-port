@@ -69,10 +69,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 34px -34px 97px black;
 }
 
 .foto {
-    box-shadow: 34px -34px 97px black;
     background-image: url(https://img.freepik.com/vetores-premium/padrao-de-listras-preto-e-branco-de-couro-de-zebra_225753-1307.jpg);
     width: 350px;
     height: 431px;
@@ -106,7 +106,7 @@ a#im:hover {
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 20px;
-    box-shadow:1px 2px 2px 2px rgb(43, 42, 42);
+    box-shadow: 10px -5px 40px black;
 }
 #atalhos{
     background-color: #FFC222;
@@ -141,10 +141,12 @@ main {
 
 #botoes {
     display: flex;
-    width: 100px;
-    height: 600px;
+    width: 155px;
+    height: 490px;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 10px -5px 40px black;
+    border-radius: 10px;
 }
 
 button:hover{
@@ -159,6 +161,7 @@ button {
     font-size: 20px;
     width: 150px;
     height: 150px;
+    border-radius: 15px;
 }
 
 img#contato {
