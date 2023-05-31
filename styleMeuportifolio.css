@@ -142,7 +142,6 @@ main {
     height: 490px;
     flex-direction: column;
     justify-content: space-evenly;
-    border-radius: 10px;
 }
 
 button:hover{
@@ -157,7 +156,6 @@ button {
     font-size: 20px;
     width: 150px;
     height: 150px;
-    border-radius: 15px;
 }
 
 img#contato {
