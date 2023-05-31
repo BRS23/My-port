@@ -44,13 +44,10 @@ p {
 
 header {
     margin: 0;
-    display: flex;
-    justify-content: space-around;
     width: 100%;
     height: 50px;
     position: fixed;
     background-color: #EBE8E2;
-    align-items: center;
 }
 
 .box_box {
@@ -83,7 +80,7 @@ header {
 
 #im {
     display: flex;
-    height: 25rem;
+    height: 30rem;
     color: black;
     flex-direction: column;
     justify-content: flex-end;
@@ -106,7 +103,7 @@ a#im:hover {
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 20px;
-    box-shadow: 10px -5px 40px black;
+    gap:2px;
 }
 #atalhos{
     background-color: #FFC222;
@@ -145,7 +142,6 @@ main {
     height: 490px;
     flex-direction: column;
     justify-content: space-evenly;
-    box-shadow: 10px -5px 40px black;
     border-radius: 10px;
 }
 
